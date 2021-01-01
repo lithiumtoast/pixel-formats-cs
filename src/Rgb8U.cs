@@ -154,7 +154,7 @@ public partial struct Rgb8U : IEquatable<Rgb8U>
     /// <returns></returns>
     public static implicit operator Rgb8U(uint value)
     {
-        return new(value);
+        return new Rgb8U(value);
     }
 
     /// <summary>
@@ -165,7 +165,7 @@ public partial struct Rgb8U : IEquatable<Rgb8U>
     /// <returns></returns>
     public static implicit operator Rgb8U(string value)
     {
-        return new(value);
+        return new Rgb8U(value);
     }
 
     /// <inheritdoc />

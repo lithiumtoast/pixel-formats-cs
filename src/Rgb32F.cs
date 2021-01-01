@@ -167,7 +167,7 @@ public partial struct Rgb32F : IEquatable<Rgb32F>
     /// <returns></returns>
     public static implicit operator Rgb32F(uint value)
     {
-        return new(value);
+        return new Rgb32F(value);
     }
 
     /// <summary>
@@ -178,7 +178,7 @@ public partial struct Rgb32F : IEquatable<Rgb32F>
     /// <returns></returns>
     public static implicit operator Rgb32F(string value)
     {
-        return new(value);
+        return new Rgb32F(value);
     }
 
     /// <summary>
@@ -189,7 +189,7 @@ public partial struct Rgb32F : IEquatable<Rgb32F>
     /// <returns></returns>
     public static implicit operator Rgb32F(Vector3 value)
     {
-        return new(value);
+        return new Rgb32F(value);
     }
 
     /// <inheritdoc />

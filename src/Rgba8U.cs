@@ -167,7 +167,7 @@ public partial struct Rgba8U : IEquatable<Rgba8U>
     /// <returns></returns>
     public static implicit operator Rgba8U(uint value)
     {
-        return new(value);
+        return new Rgba8U(value);
     }
 
     /// <summary>
@@ -178,7 +178,7 @@ public partial struct Rgba8U : IEquatable<Rgba8U>
     /// <returns></returns>
     public static implicit operator Rgba8U(string value)
     {
-        return new(value);
+        return new Rgba8U(value);
     }
 
     /// <inheritdoc />

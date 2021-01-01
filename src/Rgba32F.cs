@@ -180,7 +180,7 @@ public partial struct Rgba32F : IEquatable<Rgba32F>
     /// <returns></returns>
     public static implicit operator Rgba32F(uint value)
     {
-        return new(value);
+        return new Rgba32F(value);
     }
 
     /// <summary>
@@ -191,7 +191,7 @@ public partial struct Rgba32F : IEquatable<Rgba32F>
     /// <returns></returns>
     public static implicit operator Rgba32F(string value)
     {
-        return new(value);
+        return new Rgba32F(value);
     }
 
     /// <summary>
@@ -202,7 +202,7 @@ public partial struct Rgba32F : IEquatable<Rgba32F>
     /// <returns></returns>
     public static implicit operator Rgba32F(Vector4 value)
     {
-        return new(value);
+        return new Rgba32F(value);
     }
 
     /// <inheritdoc />
