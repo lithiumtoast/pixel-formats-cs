@@ -13,7 +13,7 @@ Add the following to your .csproj:
 </PropertyGroup>
 <ItemGroup>
   <Compile Include="$(PixelFormatsSourcePath)/*.cs">
-    <Link>pixel-formats-cs/*.cs</Link>
+    <Link>pixel-formats-cs/%(Filename)%(Extension)</Link>
   </Compile>
 </ItemGroup>
 ```
